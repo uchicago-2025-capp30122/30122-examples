@@ -7,4 +7,4 @@ To use this repo locally, you can check it out locally and run examples using `u
 ## Table of Contents
 
 - `new_tools` - examples for the new_tools chapter
-- `debugging`
+- `debugging` - debugging demo
