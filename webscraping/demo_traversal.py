@@ -17,4 +17,6 @@ print("\n------\n")
 # but it'll be more reliable to jump straight to the table by ID
 table = root.get_element_by_id("SortableData_table")
 print("Children of table:", table.getchildren())
+# table contains thead followed by tfooter followed by tbody
+# so element 2 is required
 print("Rows: ", table.getchildren()[2].getchildren())
