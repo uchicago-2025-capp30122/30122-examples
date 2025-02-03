@@ -10,5 +10,7 @@ dependencies = [
     "ipdb>=0.13.13",
     "ipython>=8.31.0",
     "lxml>=5.3.0",
+    "pyshp>=2.3.1",
     "ruff>=0.8.6",
+    "shapely>=2.0.7",
 ]
