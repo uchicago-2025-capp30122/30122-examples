@@ -1,5 +1,5 @@
 import shapefile
-from shapely import Polygon
+from shapely import Polygon, Point
 
 SHP_PATH = "neighborhoods_wgs84.shp"
 neighborhoods = {}
@@ -17,8 +17,6 @@ with shapefile.Reader(SHP_PATH) as sf:
         # associate polygon with name
         neighborhoods[name] = polygon
 
-
-from shapely import Point
 
 museums = [
     ("Field Museum", Point(-87.6169, 41.8663)),
