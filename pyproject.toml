@@ -9,6 +9,7 @@ dependencies = [
     "httpx[cli]>=0.28.1",
     "ipdb>=0.13.13",
     "ipython>=8.31.0",
+    "jupyter>=1.1.1",
     "lxml>=5.3.0",
     "pyshp>=2.3.1",
     "ruff>=0.8.6",
